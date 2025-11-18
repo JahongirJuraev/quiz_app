@@ -31,6 +31,31 @@
           "answer": "<title>"
         },
         {
+          "question": "What is the purpose of the <body> tag in HTML?",
+          "options": [
+            "It defines the document's head section.",
+            "It contains all the content such as text, images, and links.",
+            "It is used to define the main content of an HTML document.",
+            "It specifies the body of the email content in HTML."
+          ],
+          "answer": "It contains all the content such as text, images, and links."
+        },
+        {
+          "question": "Which HTML tag is used to create a hyperlink?",
+          "options": ["<hyperlink>", "<link>", "<a>", "<href>"],
+          "answer": "<a>"
+        },
+        {
+          "question": "Which tag is used to display images in HTML?",
+          "options": ["<img>", "<image>", "<src>", "<pic>"],
+          "answer": "<img>"
+        },
+        {
+          "question": "What attribute is used to provide the path of an image in the <img> tag?",
+          "options": ["link", "src", "href", "url"],
+          "answer": "src"
+        },
+        {
           "question": "Which HTML tag is used to create an unordered list?",
           "options": ["<ul>", "<ol>", "<list>", "<li>"],
           "answer": "<ul>"
@@ -86,6 +111,36 @@
             "<!-- this is a comment -->"
           ],
           "answer": "/* this is a comment */"
+        },
+        {
+          "question": "Which property is used to change the background color of an element?",
+          "options": ["color", "bgcolor", "background-color", "background"],
+          "answer": "background-color"
+        },
+        {
+          "question": "How do you apply a style to all <p> elements?",
+          "options": ["p { }", ".p { }", "#p { }", "all.p { }"],
+          "answer": "p { }"
+        },
+        {
+          "question": "Which property is used to change the font of an element?",
+          "options": ["font-style", "text-style", "font-family", "typeface"],
+          "answer": "font-family"
+        },
+        {
+          "question": "How do you make each word in a text start with a capital letter?",
+          "options": [
+            "text-transform: capitalize",
+            "text-transform: uppercase",
+            "text-style: capital",
+            "font-transform: capitalize"
+          ],
+          "answer": "text-transform: capitalize"
+        },
+        {
+          "question": "How do you select an element with the class name 'header'?",
+          "options": [".header", "#header", "header", "*header"],
+          "answer": ".header"
         },
         {
           "question": "What is the default value of the 'position' property?",
@@ -145,6 +200,46 @@
           "answer": "if (i != 5)"
         },
         {
+          "question": "How does a FOR loop start?",
+          "options": [
+            "for (i = 0; i <= 5)",
+            "for i = 1 to 5",
+            "for (i <= 5; i++)",
+            "for (i = 0; i <= 5; i++)"
+          ],
+          "answer": "for (i = 0; i <= 5; i++)"
+        },
+        {
+          "question": "How can you add a single-line comment in JavaScript?",
+          "options": [
+            "'This is a single-line comment",
+            "//This is a single-line comment",
+            "<!--This is a single-line comment-->",
+            "/* This is a single-line comment */"
+          ],
+          "answer": "//This is a single-line comment"
+        },
+        {
+          "question": "What is the correct way to write a JavaScript array?",
+          "options": [
+            "var colors = (1:'red', 2:'green', 3:'blue')",
+            "var colors = ['red', 'green', 'blue']",
+            "var colors = 'red', 'green', 'blue'",
+            "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+          ],
+          "answer": "var colors = ['red', 'green', 'blue']"
+        },
+        {
+          "question": "How do you find the number with the highest value of x and y?",
+          "options": [
+            "Math.ceil(x, y)",
+            "top(x, y)",
+            "Math.max(x, y)",
+            "Math.highest(x, y)"
+          ],
+          "answer": "Math.max(x, y)"
+        },
+        {
           "question": "Which operator is used to assign a value to a variable?",
           "options": ["-", "*", "=", "x"],
           "answer": "="
@@ -195,6 +290,46 @@
             "Automated Responsive Internet Actions"
           ],
           "answer": "Accessible Rich Internet Applications"
+        },
+        {
+          "question": "Which of the following is not a principle of the WCAG?",
+          "options": [
+            "Perceivable",
+            "Dependable",
+            "Operable",
+            "Understandable"
+          ],
+          "answer": "Dependable"
+        },
+        {
+          "question": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
+          "options": ["3:1", "4.5:1", "7:1", "2:1"],
+          "answer": "4.5:1"
+        },
+        {
+          "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
+          "options": ["<div>", "<span>", "<a href='...'>", "<p>"],
+          "answer": "<a href='...'>"
+        },
+        {
+          "question": "What is the purpose of the 'lang' attribute in an HTML page?",
+          "options": [
+            "To specify the scripting language",
+            "To define the character set",
+            "To indicate the language of the page content",
+            "To declare a language pack"
+          ],
+          "answer": "To indicate the language of the page content"
+        },
+        {
+          "question": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
+          "options": [
+            "Keyboard Accessible",
+            "Mouse Independence",
+            "Device Independence",
+            "Operable Controls"
+          ],
+          "answer": "Keyboard Accessible"
         },
         {
           "question": "What is the role of 'skip navigation' links in web accessibility?",

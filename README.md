@@ -1,16 +1,32 @@
-# React + Vite
+🎯 Quiz App
+Простое и современное приложение-викторина на React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Быстрый старт
+Установка зависимостей
+npm install
+npm run dev
+Приложение будет доступно по адресу http://localhost:5173
 
-Currently, two official plugins are available:
+React 19 - современный фреймворк для интерфейсов
+React Router DOM - навигация между страницами
+React Hot Toast - красивые уведомления
+Vite - быстрая сборка и разработка
+ESLint - проверка качества кода
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📁 Структура проекта
+text
+quiz_app/
+├── src/              # Исходный код приложения
+├── api/db.json       # Серверная часть
+├── public/           # Статические файлы
+└── package.json      # Зависимости и скрипты
 
-## React Compiler
+🎮 Возможности
+✅ Прохождение викторин (если хотите можете добавить свой тест)
+✅ Удобный интерфейс
+✅ Адаптивный дизайн
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📝 Скрипты для запуска проекта 
+npm run preview - предпросмотр сборки
+npm start - запуск сервера
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
